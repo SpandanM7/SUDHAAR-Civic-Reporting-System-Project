@@ -2,23 +2,26 @@
 
 ### Empowering Citizens. Enabling Authorities. Enhancing Cities.
 
-**SUDHAAR** is a smart civic issue management platform that bridges the gap between citizens and local authorities.  
-It enables users to **report, track, and resolve public infrastructure problems** such as potholes, garbage, and streetlight faults through a mobile app, while providing a **web dashboard** for authorities to manage complaints efficiently.
-
----
-
 ## 🚀 Project Overview
 
-SUDHAAR is composed of four integrated modules working together through Firebase Cloud Services.
+SUDHAAR is composed of Six(6) integrated modules working together through Firebase Cloud Services.
 
 | Module | Description | Repository |
 |--------|--------------|------------|
 | 📱 **Android App (Citizen Side)** | Mobile application for citizens to report civic issues with geo-tagged photos and live tracking. | [SUDHAAR (Android App)](https://github.com/SpandanM7/SUDHAAR) |
 | ☁️ **Android App Backend** | Firebase-based backend handling authentication, complaint storage, and image uploads for the mobile app. | [SUDHAAR-BACKEND](https://github.com/SpandanM7/SUDHAAR-BACKEND) |
-| 💻 **Web Dashboard (Authority Side)** | Web portal for municipal authorities to view, manage, and update reported issues. | [sudhaar-web](https://github.com/SpandanM7/sudhaar-web) |
+| 💻 **Web Dashboard (Authority Side)** | Web portal for municipal authorities to view, manage, assign field teams and update reported issues. | [sudhaar-web](https://github.com/SpandanM7/sudhaar-web) |
 | ⚙️ **Web Dashboard Backend** | Cloud backend APIs and database management for the web dashboard. | [SUDHAAR-BACKEND-WEB](https://github.com/SpandanM7/SUDHAAR-BACKEND-WEB) |
+| 📱 **Higher authority Web App** |  Web portal for higher authorities like state development bodies to oversee performance of municipal authorities and see analysis. | UNDER PRODUCTION|
+| 📱 **Android App (Field Team Side)** | Mobile application for Field teams to get to know about their day-to-day duties. | UNDER PRODUCTION|
+---
+
+
+**SUDHAAR** is a smart civic issue management platform that bridges the gap between citizens and local authorities.  
+It enables users to **report, track, and resolve public infrastructure problems** such as potholes, garbage, and streetlight faults through a mobile app, while providing a **web dashboard** for authorities to manage complaints efficiently.
 
 ---
+
 
 ## 🧩 System Architecture
 
